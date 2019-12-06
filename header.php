@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
+    <title><?php echo get_bloginfo( 'name' ); ?></title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Bootstrap core CSS -->
@@ -23,11 +23,6 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar no-shadows">
             <div class="container">
-
-                <!-- Brand -->
-                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-                    <strong class="blue-text">MDB</strong>
-                </a>
 
                 <!-- Collapse -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -84,3 +79,61 @@
 
     </header>
     <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
+        <div class="container">
+
+            <!--Section: Jumbotron-->
+            <section class="card wow fadeIn">
+
+                <!-- Content -->
+                <div class="card-body text-center">
+
+                    <h1 class="mb-4">
+                        <strong><?php echo get_bloginfo( 'name' ); ?></strong>
+                    </h1>
+                    <p>
+                        <strong><?php echo get_bloginfo( 'description' ); ?></strong>
+                    </p>
+                </div>
+
+                <section>
+
+      <!--Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link waves-effect waves-light" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-555" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
+              </a>
+              <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+                <a class="dropdown-item waves-effect waves-light" href="#">Action</a>
+                <a class="dropdown-item waves-effect waves-light" href="#">Another action</a>
+                <a class="dropdown-item waves-effect waves-light" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/.Navbar -->
+
+    </section>
+                <!-- Content -->
+            </section>
+            <!--Section: Jumbotron-->

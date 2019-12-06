@@ -1,4 +1,9 @@
 // Template style
-.navbar {
-  box-shadow: none!important;
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+.card, .navbar, .pagination .page-item.active .page-link {
+    box-shadow: none!important;
 }
